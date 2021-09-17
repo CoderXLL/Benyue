@@ -1,0 +1,6 @@
+framework module Pods_Benyue_BenyueUITests {
+  umbrella header "Pods-Benyue-BenyueUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

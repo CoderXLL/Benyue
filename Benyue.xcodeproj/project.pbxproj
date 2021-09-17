@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		737AF0937AFEEAC660D38A5C /* Pods_Benyue_BenyueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5946F3D7518D296633D574F6 /* Pods_Benyue_BenyueUITests.framework */; };
+		928E9D4EF7E660DDF8045AAE /* Pods_Benyue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0CC8BE56C7C37E1FACB1DC /* Pods_Benyue.framework */; };
+		9367BB906FDF375F597136D3 /* Pods_BenyueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE6E43000B924CC0EF79E4E /* Pods_BenyueTests.framework */; };
+		A9D5D66C26F43436002BF0A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5D66B26F43436002BF0A3 /* AppDelegate.m */; };
+		A9D5D66F26F43436002BF0A3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5D66E26F43436002BF0A3 /* SceneDelegate.m */; };
+		A9D5D67226F43436002BF0A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5D67126F43436002BF0A3 /* ViewController.m */; };
+		A9D5D67526F43436002BF0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D5D67326F43436002BF0A3 /* Main.storyboard */; };
+		A9D5D67726F43438002BF0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D5D67626F43438002BF0A3 /* Assets.xcassets */; };
+		A9D5D67A26F43438002BF0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D5D67826F43438002BF0A3 /* LaunchScreen.storyboard */; };
+		A9D5D67D26F43438002BF0A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5D67C26F43438002BF0A3 /* main.m */; };
+		A9D5D68726F43438002BF0A3 /* BenyueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5D68626F43438002BF0A3 /* BenyueTests.m */; };
+		A9D5D69226F43438002BF0A3 /* BenyueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5D69126F43438002BF0A3 /* BenyueUITests.m */; };
+		A9D5D6A826F436DE002BF0A3 /* MoonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5D6A726F436DE002BF0A3 /* MoonView.m */; };
+		A9D5D6AB26F43A6C002BF0A3 /* StarshowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5D6AA26F43A6C002BF0A3 /* StarshowerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9D5D68326F43438002BF0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D5D65F26F43436002BF0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D5D66626F43436002BF0A3;
+			remoteInfo = Benyue;
+		};
+		A9D5D68E26F43438002BF0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D5D65F26F43436002BF0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D5D66626F43436002BF0A3;
+			remoteInfo = Benyue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5946F3D7518D296633D574F6 /* Pods_Benyue_BenyueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Benyue_BenyueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C5B3D376679A19A7D473C9 /* Pods-Benyue-BenyueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Benyue-BenyueUITests.release.xcconfig"; path = "Target Support Files/Pods-Benyue-BenyueUITests/Pods-Benyue-BenyueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DE6E43000B924CC0EF79E4E /* Pods_BenyueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BenyueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9768B5B14A864C6E803A1A82 /* Pods-BenyueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenyueTests.release.xcconfig"; path = "Target Support Files/Pods-BenyueTests/Pods-BenyueTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9D5D66726F43436002BF0A3 /* Benyue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Benyue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D5D66A26F43436002BF0A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9D5D66B26F43436002BF0A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9D5D66D26F43436002BF0A3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A9D5D66E26F43436002BF0A3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A9D5D67026F43436002BF0A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9D5D67126F43436002BF0A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9D5D67426F43436002BF0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9D5D67626F43438002BF0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9D5D67926F43438002BF0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9D5D67B26F43438002BF0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D5D67C26F43438002BF0A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9D5D68226F43438002BF0A3 /* BenyueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenyueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D5D68626F43438002BF0A3 /* BenyueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenyueTests.m; sourceTree = "<group>"; };
+		A9D5D68826F43438002BF0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D5D68D26F43438002BF0A3 /* BenyueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenyueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D5D69126F43438002BF0A3 /* BenyueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenyueUITests.m; sourceTree = "<group>"; };
+		A9D5D69326F43438002BF0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D5D6A626F436DE002BF0A3 /* MoonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoonView.h; sourceTree = "<group>"; };
+		A9D5D6A726F436DE002BF0A3 /* MoonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoonView.m; sourceTree = "<group>"; };
+		A9D5D6A926F43A6C002BF0A3 /* StarshowerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarshowerView.h; sourceTree = "<group>"; };
+		A9D5D6AA26F43A6C002BF0A3 /* StarshowerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarshowerView.m; sourceTree = "<group>"; };
+		C5AC6D30287873E090194D11 /* Pods-Benyue-BenyueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Benyue-BenyueUITests.debug.xcconfig"; path = "Target Support Files/Pods-Benyue-BenyueUITests/Pods-Benyue-BenyueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6FF170904C6B61D2D98952B /* Pods-Benyue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Benyue.debug.xcconfig"; path = "Target Support Files/Pods-Benyue/Pods-Benyue.debug.xcconfig"; sourceTree = "<group>"; };
+		EB95860454CDC65D61D99FAF /* Pods-BenyueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenyueTests.debug.xcconfig"; path = "Target Support Files/Pods-BenyueTests/Pods-BenyueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC0CC8BE56C7C37E1FACB1DC /* Pods_Benyue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Benyue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF13A9DDD5827FE766972145 /* Pods-Benyue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Benyue.release.xcconfig"; path = "Target Support Files/Pods-Benyue/Pods-Benyue.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D5D66426F43436002BF0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928E9D4EF7E660DDF8045AAE /* Pods_Benyue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D5D67F26F43438002BF0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9367BB906FDF375F597136D3 /* Pods_BenyueTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D5D68A26F43438002BF0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737AF0937AFEEAC660D38A5C /* Pods_Benyue_BenyueUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9D5D65E26F43436002BF0A3 = {
+			isa = PBXGroup;
+			children = (
+				A9D5D66926F43436002BF0A3 /* Benyue */,
+				A9D5D68526F43438002BF0A3 /* BenyueTests */,
+				A9D5D69026F43438002BF0A3 /* BenyueUITests */,
+				A9D5D66826F43436002BF0A3 /* Products */,
+				FCAF85E2BA2A5E9E2BC8874E /* Pods */,
+				B0D5CB82088ECAE732C5A48A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D5D66826F43436002BF0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5D66726F43436002BF0A3 /* Benyue.app */,
+				A9D5D68226F43438002BF0A3 /* BenyueTests.xctest */,
+				A9D5D68D26F43438002BF0A3 /* BenyueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D5D66926F43436002BF0A3 /* Benyue */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5D6A226F43694002BF0A3 /* Main */,
+				A9D5D6A126F43456002BF0A3 /* SupportingFiles */,
+				A9D5D6A026F4344A002BF0A3 /* AppDelegate */,
+			);
+			path = Benyue;
+			sourceTree = "<group>";
+		};
+		A9D5D68526F43438002BF0A3 /* BenyueTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5D68626F43438002BF0A3 /* BenyueTests.m */,
+				A9D5D68826F43438002BF0A3 /* Info.plist */,
+			);
+			path = BenyueTests;
+			sourceTree = "<group>";
+		};
+		A9D5D69026F43438002BF0A3 /* BenyueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5D69126F43438002BF0A3 /* BenyueUITests.m */,
+				A9D5D69326F43438002BF0A3 /* Info.plist */,
+			);
+			path = BenyueUITests;
+			sourceTree = "<group>";
+		};
+		A9D5D6A026F4344A002BF0A3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5D66A26F43436002BF0A3 /* AppDelegate.h */,
+				A9D5D66B26F43436002BF0A3 /* AppDelegate.m */,
+				A9D5D66D26F43436002BF0A3 /* SceneDelegate.h */,
+				A9D5D66E26F43436002BF0A3 /* SceneDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A9D5D6A126F43456002BF0A3 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5D67326F43436002BF0A3 /* Main.storyboard */,
+				A9D5D67626F43438002BF0A3 /* Assets.xcassets */,
+				A9D5D67826F43438002BF0A3 /* LaunchScreen.storyboard */,
+				A9D5D67B26F43438002BF0A3 /* Info.plist */,
+				A9D5D67C26F43438002BF0A3 /* main.m */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A9D5D6A226F43694002BF0A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5D6A526F436AE002BF0A3 /* ViewModel */,
+				A9D5D6A426F436A7002BF0A3 /* Views */,
+				A9D5D6A326F4369B002BF0A3 /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A9D5D6A326F4369B002BF0A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5D67026F43436002BF0A3 /* ViewController.h */,
+				A9D5D67126F43436002BF0A3 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A9D5D6A426F436A7002BF0A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5D6A626F436DE002BF0A3 /* MoonView.h */,
+				A9D5D6A726F436DE002BF0A3 /* MoonView.m */,
+				A9D5D6A926F43A6C002BF0A3 /* StarshowerView.h */,
+				A9D5D6AA26F43A6C002BF0A3 /* StarshowerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9D5D6A526F436AE002BF0A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0D5CB82088ECAE732C5A48A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC0CC8BE56C7C37E1FACB1DC /* Pods_Benyue.framework */,
+				5946F3D7518D296633D574F6 /* Pods_Benyue_BenyueUITests.framework */,
+				8DE6E43000B924CC0EF79E4E /* Pods_BenyueTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCAF85E2BA2A5E9E2BC8874E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6FF170904C6B61D2D98952B /* Pods-Benyue.debug.xcconfig */,
+				EF13A9DDD5827FE766972145 /* Pods-Benyue.release.xcconfig */,
+				C5AC6D30287873E090194D11 /* Pods-Benyue-BenyueUITests.debug.xcconfig */,
+				62C5B3D376679A19A7D473C9 /* Pods-Benyue-BenyueUITests.release.xcconfig */,
+				EB95860454CDC65D61D99FAF /* Pods-BenyueTests.debug.xcconfig */,
+				9768B5B14A864C6E803A1A82 /* Pods-BenyueTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D5D66626F43436002BF0A3 /* Benyue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D5D69626F43438002BF0A3 /* Build configuration list for PBXNativeTarget "Benyue" */;
+			buildPhases = (
+				B190B9919F55E3D6F110190F /* [CP] Check Pods Manifest.lock */,
+				A9D5D66326F43436002BF0A3 /* Sources */,
+				A9D5D66426F43436002BF0A3 /* Frameworks */,
+				A9D5D66526F43436002BF0A3 /* Resources */,
+				28924B57CDF78D7F3916FF1E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Benyue;
+			productName = Benyue;
+			productReference = A9D5D66726F43436002BF0A3 /* Benyue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9D5D68126F43438002BF0A3 /* BenyueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D5D69926F43438002BF0A3 /* Build configuration list for PBXNativeTarget "BenyueTests" */;
+			buildPhases = (
+				16E48A33FA8E5A9CB314A0C1 /* [CP] Check Pods Manifest.lock */,
+				A9D5D67E26F43438002BF0A3 /* Sources */,
+				A9D5D67F26F43438002BF0A3 /* Frameworks */,
+				A9D5D68026F43438002BF0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D5D68426F43438002BF0A3 /* PBXTargetDependency */,
+			);
+			name = BenyueTests;
+			productName = BenyueTests;
+			productReference = A9D5D68226F43438002BF0A3 /* BenyueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9D5D68C26F43438002BF0A3 /* BenyueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D5D69C26F43438002BF0A3 /* Build configuration list for PBXNativeTarget "BenyueUITests" */;
+			buildPhases = (
+				F581AB9E15BC01B4FA74F3FA /* [CP] Check Pods Manifest.lock */,
+				A9D5D68926F43438002BF0A3 /* Sources */,
+				A9D5D68A26F43438002BF0A3 /* Frameworks */,
+				A9D5D68B26F43438002BF0A3 /* Resources */,
+				E9ADD6593B33AF98A4B258E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D5D68F26F43438002BF0A3 /* PBXTargetDependency */,
+			);
+			name = BenyueUITests;
+			productName = BenyueUITests;
+			productReference = A9D5D68D26F43438002BF0A3 /* BenyueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D5D65F26F43436002BF0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A9D5D66626F43436002BF0A3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A9D5D68126F43438002BF0A3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A9D5D66626F43436002BF0A3;
+					};
+					A9D5D68C26F43438002BF0A3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A9D5D66626F43436002BF0A3;
+					};
+				};
+			};
+			buildConfigurationList = A9D5D66226F43436002BF0A3 /* Build configuration list for PBXProject "Benyue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9D5D65E26F43436002BF0A3;
+			productRefGroup = A9D5D66826F43436002BF0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D5D66626F43436002BF0A3 /* Benyue */,
+				A9D5D68126F43438002BF0A3 /* BenyueTests */,
+				A9D5D68C26F43438002BF0A3 /* BenyueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D5D66526F43436002BF0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D5D67A26F43438002BF0A3 /* LaunchScreen.storyboard in Resources */,
+				A9D5D67726F43438002BF0A3 /* Assets.xcassets in Resources */,
+				A9D5D67526F43436002BF0A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D5D68026F43438002BF0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D5D68B26F43438002BF0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E48A33FA8E5A9CB314A0C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BenyueTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28924B57CDF78D7F3916FF1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Benyue/Pods-Benyue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Benyue/Pods-Benyue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Benyue/Pods-Benyue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B190B9919F55E3D6F110190F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Benyue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9ADD6593B33AF98A4B258E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Benyue-BenyueUITests/Pods-Benyue-BenyueUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Benyue-BenyueUITests/Pods-Benyue-BenyueUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Benyue-BenyueUITests/Pods-Benyue-BenyueUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F581AB9E15BC01B4FA74F3FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Benyue-BenyueUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D5D66326F43436002BF0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D5D6A826F436DE002BF0A3 /* MoonView.m in Sources */,
+				A9D5D67226F43436002BF0A3 /* ViewController.m in Sources */,
+				A9D5D6AB26F43A6C002BF0A3 /* StarshowerView.m in Sources */,
+				A9D5D66C26F43436002BF0A3 /* AppDelegate.m in Sources */,
+				A9D5D67D26F43438002BF0A3 /* main.m in Sources */,
+				A9D5D66F26F43436002BF0A3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D5D67E26F43438002BF0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D5D68726F43438002BF0A3 /* BenyueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D5D68926F43438002BF0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D5D69226F43438002BF0A3 /* BenyueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9D5D68426F43438002BF0A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D5D66626F43436002BF0A3 /* Benyue */;
+			targetProxy = A9D5D68326F43438002BF0A3 /* PBXContainerItemProxy */;
+		};
+		A9D5D68F26F43438002BF0A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D5D66626F43436002BF0A3 /* Benyue */;
+			targetProxy = A9D5D68E26F43438002BF0A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9D5D67326F43436002BF0A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D5D67426F43436002BF0A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9D5D67826F43438002BF0A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D5D67926F43438002BF0A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D5D69426F43438002BF0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9D5D69526F43438002BF0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9D5D69726F43438002BF0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FF170904C6B61D2D98952B /* Pods-Benyue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDUWTH9N7G;
+				INFOPLIST_FILE = Benyue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melot.Benyue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9D5D69826F43438002BF0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF13A9DDD5827FE766972145 /* Pods-Benyue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDUWTH9N7G;
+				INFOPLIST_FILE = Benyue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melot.Benyue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9D5D69A26F43438002BF0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB95860454CDC65D61D99FAF /* Pods-BenyueTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDUWTH9N7G;
+				INFOPLIST_FILE = BenyueTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melot.BenyueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Benyue.app/Benyue";
+			};
+			name = Debug;
+		};
+		A9D5D69B26F43438002BF0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9768B5B14A864C6E803A1A82 /* Pods-BenyueTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDUWTH9N7G;
+				INFOPLIST_FILE = BenyueTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melot.BenyueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Benyue.app/Benyue";
+			};
+			name = Release;
+		};
+		A9D5D69D26F43438002BF0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AC6D30287873E090194D11 /* Pods-Benyue-BenyueUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDUWTH9N7G;
+				INFOPLIST_FILE = BenyueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melot.BenyueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Benyue;
+			};
+			name = Debug;
+		};
+		A9D5D69E26F43438002BF0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C5B3D376679A19A7D473C9 /* Pods-Benyue-BenyueUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDUWTH9N7G;
+				INFOPLIST_FILE = BenyueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melot.BenyueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Benyue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D5D66226F43436002BF0A3 /* Build configuration list for PBXProject "Benyue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D5D69426F43438002BF0A3 /* Debug */,
+				A9D5D69526F43438002BF0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D5D69626F43438002BF0A3 /* Build configuration list for PBXNativeTarget "Benyue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D5D69726F43438002BF0A3 /* Debug */,
+				A9D5D69826F43438002BF0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D5D69926F43438002BF0A3 /* Build configuration list for PBXNativeTarget "BenyueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D5D69A26F43438002BF0A3 /* Debug */,
+				A9D5D69B26F43438002BF0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D5D69C26F43438002BF0A3 /* Build configuration list for PBXNativeTarget "BenyueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D5D69D26F43438002BF0A3 /* Debug */,
+				A9D5D69E26F43438002BF0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D5D65F26F43436002BF0A3 /* Project object */;
+}
